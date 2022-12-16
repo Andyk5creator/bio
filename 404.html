@@ -1,0 +1,35 @@
+---
+layout: default
+title: 404
+---
+<div class="wrapper error__wrapper">
+	<div class="wrapper__background">
+		<picture>
+			<source media="(max-width: 772px)" alt="ssss" srcset="assets/images/404-lines-mobile.svg">
+			<img src="assets/images/404-lines.svg" alt="lines">
+		</picture>
+	</div>
+	<div class="wrapper__content">
+		<header class="header ">
+			{{> header}}
+		</header>
+		<section class="error__section">
+			<div class="hero-background__image error-background__image">
+				<img src="assets/images/hero-stumps.jpg" alt="stumps">
+			</div>
+			<div class="error__content">
+				<div class="error-width__content">
+					<div class="error-number__image">
+						<img src="assets/images/404-404.svg" alt="404">
+					</div>
+					<div class="error-text__block">
+						<h2>Woops</h2>
+						<p>Oh, you must be lost,there is no such page.</p>
+						<button onclick="window.location.href = 'index.html';" class="error__button main-button">Go to the home
+							page</button>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
